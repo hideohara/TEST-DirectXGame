@@ -18,7 +18,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int) {
 
 	// ゲームウィンドウの作成
 	win = WinApp::GetInstance();
-	win->CreateGameWindow("名前を修正２");
+	win->CreateGameWindow("名前を修正３");
 
 	// DirectX初期化処理
 	dxCommon = DirectXCommon::GetInstance();
